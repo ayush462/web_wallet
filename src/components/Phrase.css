@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+}
+
+/* Parent container for the phrase */
+.phrase-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #1E1E1E;  /* Set a background color for the parent div */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: #1E1E1E;
+    width: 90%;  /* Adjust to ensure better fit */
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 4px;
+    overflow: hidden;  /* Prevent overflow */
+}
+
+/* Flexbox for arranging word cards */
+.phrase-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Styling each word card */
+.word-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 10px); /* Ensure 4 items per row with some gap */
+    
+    margin: 5px;
+    word-wrap: break-word; /* Ensures text wraps inside the card */
+    overflow-wrap: break-word; /* Adds compatibility for long words */
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Styling the number on the word card */
+.word-number {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #333;
+}
+
+/* Styling the word itself */
+.word-text {
+    color: #555;
+    font-size: 14px;
+}
+
+.phrase-operation{
+    
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+
+
+

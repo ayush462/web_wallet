@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    padding: 10px;
+    background-color:#1E1E1E;
+    color: white; 
+    font-size: 20px;
+    font-weight: 500;
+    width: 100vw;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;   
+
+}
+
+.navbar li a{
+    margin-right: 15px;
+}
+
+
+
