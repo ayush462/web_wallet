@@ -99,11 +99,23 @@ button:hover {
     align-self: flex-start;
     margin-top: 10px;
 }
+.balance-button {
+    background-color: #25ae7c;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: 10px;
+}
 
 .solana-keys h2 {
     text-align: center;
     color: #fff;
 }
+
+
 
 .delete-button:hover {
     background-color: #c0392b;
